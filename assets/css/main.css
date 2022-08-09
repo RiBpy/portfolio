@@ -29,9 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 /*logo*/
-#header .logo img{
-width:80px;
-}
 body {
 	line-height: 1;
 }
@@ -1320,9 +1317,10 @@ text-decoration:none;
 				display: none;
 			}
 
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+		#header .logo img {
+			
+			width: 4.8rem;
+			height: 4.8rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
@@ -1399,7 +1397,7 @@ text-decoration:none;
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 0.064);
 					}
 
 					#header nav ul li a:active {
